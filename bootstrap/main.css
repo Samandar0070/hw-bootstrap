@@ -1,0 +1,49 @@
+.box{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.card-2{
+    
+    width: 1024px;
+    margin: 0 auto;
+    .box--2{
+        border: 2px black solid;
+        .card{
+            height: 300px;
+        }
+    }
+    
+}
+
+.card--1{
+    border: 2px black solid;
+   
+}
+.box-3{
+    width: 1024px;
+    height: 400px;
+    margin: 0 auto;
+    .box--1{
+        height: 400px;
+        .box---1{
+            height: 200px;
+                .title{
+                    height: 40px;
+                }
+                .buybox{
+                    height: 160px;
+                }
+            }
+        }
+        .card---2{
+            height: 200px;
+            .description{
+                height: 100px;
+            }
+            .related{
+                height: 100px;
+            }
+        }
+    }
+}
